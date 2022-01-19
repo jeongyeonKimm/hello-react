@@ -1,7 +1,7 @@
-import Mycomponent from "./MyComponent";
+import MyComponent from "./MyComponent";
 
 const App = () => {
-  return <Mycomponent />;
+  return <MyComponent name="React" />;
 };
 
 export default App;
