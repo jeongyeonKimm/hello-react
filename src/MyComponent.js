@@ -5,7 +5,7 @@ class MyComponent extends Component {
   static defaultProps = {
     name: "기본 이름",
   };
-  static propsTyped = {
+  static propsTypes = {
     name: PropTypes.string,
     favoriteNumber: PropTypes.number.isRequired,
   };
