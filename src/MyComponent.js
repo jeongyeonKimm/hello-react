@@ -23,13 +23,4 @@ class MyComponent extends Component {
   }
 }
 
-MyComponent.defaultProps = {
-  name: "기본 이름",
-};
-
-MyComponent.propTyped = {
-  name: PropTypes.string,
-  favoriteNumber: PropTypes.number.isRequired,
-};
-
 export default MyComponent;
