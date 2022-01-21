@@ -4,7 +4,7 @@ class EventPractice extends Component {
   render() {
     return (
       <div>
-        <h1>이벤틑 연습</h1>
+        <h1>이벤트 연습</h1>
       </div>
     );
   }
